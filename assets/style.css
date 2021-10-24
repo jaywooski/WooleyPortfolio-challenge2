@@ -80,8 +80,8 @@ section h1 {
     
 }
 
-section div {
-    
+section {
+    border: rosybrown solid 3px;
 }
 
 
@@ -89,14 +89,15 @@ section div {
 /* Mid-Page styles */
 
 .sizing {
-    width: 100%;
     display: flex;
     justify-content: center;
+    border: blueviolet solid 4px;
 }
 
 .sizing img {
-    display: flex;
     width: 60%;
+    border: black solid 4px;
+    padding: 20px;
 }
 
 
@@ -105,6 +106,7 @@ section div {
     width: 100%;
     padding: 0 20px;
     justify-content: center;
+    border: red solid 4px;
 }
 
 
