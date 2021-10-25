@@ -80,8 +80,8 @@ section h1 {
     
 }
 
-section div {
-    
+section {
+    border: rosybrown solid 3px;
 }
 
 
@@ -89,14 +89,15 @@ section div {
 /* Mid-Page styles */
 
 .sizing {
-    width: 100%;
     display: flex;
     justify-content: center;
+    border: blueviolet solid 4px;
 }
 
 .sizing img {
-    display: flex;
-    width: 60%;
+    max-width: 80%;
+    border: black solid 4px;
+    padding: 20px;
 }
 
 
@@ -105,7 +106,9 @@ section div {
     width: 100%;
     padding: 0 20px;
     justify-content: center;
+    border: red solid 4px;
 }
+
 
 
 
@@ -120,6 +123,12 @@ section div {
 .project div {
     border: black solid 4px;
     width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.project div img {
+    max-width: 100%;
 }
 
 .project div h3 {
@@ -137,3 +146,16 @@ section div {
 
 
 /* Mobile page styling settings */ 
+@media screen and (max-width: 980px) {
+
+    /* this will be applied on any screen smaller than 980px */
+   
+}
+
+@media screen and (max-width: 768px) {
+    
+}
+
+@media  and (max-width: 575px) {
+    
+}
