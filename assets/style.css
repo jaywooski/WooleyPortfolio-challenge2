@@ -20,8 +20,7 @@ p {
 }
 
 /* Header/hero/navigation link styles */
-header{
-    /*background-image: url(../assets/pexels-dids-3705645.jpg);*/
+header {
     background-image: linear-gradient(to right, rgba(5, 71, 122, 1), rgba(16, 137, 230, 0.5));
     background-position: center;
     background-size: cover;
@@ -47,7 +46,7 @@ header h1 {
 
 .navigation {
    
-    
+    /*adding if needed later */
 }
 
 .navigation ul {
@@ -81,7 +80,7 @@ section h1 {
 }
 
 section {
-    border: rosybrown solid 3px;
+    /* come back to later */   
 }
 
 
@@ -91,12 +90,13 @@ section {
 .sizing {
     display: flex;
     justify-content: center;
-    border: blueviolet solid 4px;
+    
 }
-
+.resize {
+    width: 75%;
+}
 .sizing img {
-    max-width: 80%;
-    border: black solid 4px;
+    max-width: 100%;
     padding: 20px;
 }
 
@@ -106,22 +106,20 @@ section {
     width: 100%;
     padding: 0 20px;
     justify-content: center;
-    border: red solid 4px;
+    
 }
 
 
 
 
-/* Other part page styles (if neccessary) */
+/* Projects styles */
 .project {
     display: flex;
-    border: black solid 4px;
     justify-content: space-around;
 
 }
 
 .project div {
-    border: black solid 4px;
     width: 30%;
     display: flex;
     flex-direction: column;
@@ -133,29 +131,70 @@ section {
 
 .project div h3 {
     text-align: center;
-    border: black solid 4px;
 }
 
 .project h1 {
     text-align: center;
     padding: 50px 0;
-    border: black solid 4px ;
 }
 
+/* Contact Section styles */
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.contact div {
+    display: flex;
+    justify-content: space-around;
+}
+ info a {
+     max-width: 100%;
+ }
+
+
 /* Footer Styles */
+
+.contact-icons {
+    padding: 15px 10px;
+    display: flex;
+    justify-content: space-between;
+}
 
 
 /* Mobile page styling settings */ 
 @media screen and (max-width: 980px) {
 
     /* this will be applied on any screen smaller than 980px */
-   
+    section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        max-width: 95%;
+    }
+
+    section div{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
+    section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
     
 }
 
-@media  and (max-width: 575px) {
-    
+@media screen and (max-width: 575px) {
+    section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 }
