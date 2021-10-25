@@ -44,10 +44,10 @@ header h1 {
     color: var(--first-color);
 }
 
-.navigation {
+/*.navigation {
    
-    /*adding if needed later */
-}
+    adding if needed later
+}*/
 
 .navigation ul {
     display: flex;
@@ -79,9 +79,9 @@ section h1 {
     
 }
 
-section {
-    /* come back to later */   
-}
+/*section {
+     come back to later   
+}*/
 
 
 
