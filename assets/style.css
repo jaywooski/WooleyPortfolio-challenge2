@@ -44,10 +44,10 @@ header h1 {
     color: var(--first-color);
 }
 
-.navigation {
+/*.navigation {
    
-    /*adding if needed later */
-}
+    adding if needed later
+}*/
 
 .navigation ul {
     display: flex;
@@ -79,9 +79,9 @@ section h1 {
     
 }
 
-section {
-    /* come back to later */   
-}
+/*section {
+     come back to later   
+}*/
 
 
 
@@ -123,10 +123,12 @@ section {
     width: 30%;
     display: flex;
     flex-direction: column;
+    padding: 2px;
 }
 
 .project div img {
     max-width: 100%;
+    
 }
 
 .project div h3 {
