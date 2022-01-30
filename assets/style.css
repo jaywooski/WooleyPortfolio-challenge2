@@ -109,6 +109,28 @@ section h1 {
     
 }
 
+/* Featured project styling */
+.featured {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.featured div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.featured h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.featured a,
+.featured img {
+    max-width: 100%;
+}
+
 
 
 
@@ -180,6 +202,12 @@ section h1 {
         display: flex;
         justify-content: center;
         width: 100%;
+    }
+
+    .featured {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
     }
 
 }
